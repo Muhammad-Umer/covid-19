@@ -1,5 +1,5 @@
-#Organizations
-##Tech Organizations
+# Organizations
+## Tech Organizations
 1. **Careem** (Ride-Hailing, Pay, Food, General Deliveries) 
 2. **Bykea** (Ride-Hailing, General Deliveries)
 3. **FoodPanda** (Food)
@@ -9,7 +9,7 @@
 7. **Oladoc** (Doctor Appointment)
 8. **DoctHERs** (Digital Health Platform)
 
-##Welfare Organizations
+## Welfare Organizations
 1. **JDC**
 2. **Edhi**
 3. **Saylani**
