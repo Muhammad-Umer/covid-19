@@ -11,5 +11,15 @@ The primary requirement in onder to solve the aforementioned problems in money a
 - Available in rural areas
 - Easier to transfer to different stakeholders
 - Little operational overhead
+- Can't transfer huge amounts
 
 #### Careem Pay
+- Centralized reports
+- Easiest to manage a pool
+- Credit can be used in donations
+- Only available in some cities
+
+#### Direct Deposit / Transfer
+- Banks have to be on-boarded
+- Ease for a huge population
+- No centralized logging mechanism
