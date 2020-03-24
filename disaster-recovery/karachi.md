@@ -54,7 +54,7 @@ along the M-9 motorway.
 - ***Bahria Town***
 - ***Sabzi Mandi***
 
-![Alt text](../images/crisis-aoi.png?raw=true "Title")
+![Alt text](../images/crisis-aoi.PNG?raw=true "Title")
 
 #### 2.3.2. Edge Karachi
 All the areas that are between ***Naya Nazimabad*** and ***Geo Shinwari*** via
@@ -80,7 +80,7 @@ the 30km length and 200m width area along the M-9 motorway.
 - ***Bahria Town***
 - ***Geo Shinwari***
 
-![Alt text](../images/edge-aoi.png?raw=true "Title")
+![Alt text](../images/edge-aoi.PNG?raw=true "Title")
 
 #### 2.3.3. Main Karachi
 All remaining areas that are not covered in the above section 
@@ -98,7 +98,7 @@ These are the main road arteries connecting different areas of
 Karachi with all the three divisions (Main, Edge, Crisis)
 and are critical for this disaster recovery plan.
 
-![Alt text](../images/main-road-arteries.png?raw=true "Title")
+![Alt text](../images/main-road-arteries.PNG?raw=true "Title")
 
 ## 3. Strategy
 #### 3.1. Severity Levels
