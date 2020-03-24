@@ -119,7 +119,49 @@ The transition between severity levels is shown in the diagram below:
 
 
 #### 3.2. Ambulance queuing mechanism
-1) 
+##### 3.2.1 District Level Distribution
+1) Each district would have a dedicated pool.
+2) Each district would have dedicated queues (can be multiple)
+3) Each district should have operators dedicated to the same area users
+4) All operators should be able to contact centralized dispatcher
+5) Centralized dispatcher
+   1) Dispatches ambulances to users from queues
+   2) Contact central pool if district pool becomes small
+   3) Direct ambulances from pool to queues
+   
+![Alt text](../images/amb-district.png?raw=true "Title")
+
+##### 3.2.2 Overall distribution
+1) Total 5 district pools and 1 central pool
+2) Central pool has a team in contact with dispatchers from districts
+3) Central team dispatches ambulances from central to district pools
+
+![Alt text](../images/pool-dist.png?raw=true "Title")
+
+##### 3.2.3 Central Pool
+1) Central pool is filled by three different levels
+   1) Level 1 (Welfare Organizations + Government)
+   2) Level 2 (Ride-share Organizations)
+   3) Level 3 (Hospitals)
+2) Central pool should be filled by the levels in ascending order.
+(Hospitals should be the last resort).
+3) A higher level (level 2) should only be contacted if a lower level
+(level 1) is out of capacity
+4) Centralized dispatch team should be able to contact representatives
+from each level.
+![Alt text](../images/central-pool.png?raw=true "Title")
+
+##### 3.2.4 Penalty on misuse of dispatcher service by user.
+1) 1 million PKR **OR**
+2) 6 months in jail **OR**
+3) Both (depending on the severity)
+
+   
+
+
+
+
+
 
 
 
