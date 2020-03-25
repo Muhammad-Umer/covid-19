@@ -156,6 +156,44 @@ from each level.
 2) 6 months in jail **OR**
 3) Both (depending on the severity)
 
+#### 3.3. COVID Testing mechanism
+##### 3.3.1 Online Diagnosis
+1) Online platform like ***doctHERs*** to be used by people for diagnostics
+2) If patient has severity
+   - ***SEV 0*** -> Call district dispatcher with highest priority for ambulance
+   - ***SEV 1*** -> Call district dispatcher for ambulance
+   - ***SEV 2*** -> Allow user to directly initiate and appointment for test
+   - ***SEV 3*** -> Allow user to directly initiate and appointment for test
+3) For ***SEV 2 & 3***, user would initiate the appointment if needed, and each
+appointment goes in a queue.
+4) The queue is read by dedicated district hospitals which contact users
+for performing tests
+5) For ***SEV 1 & 2***, the dispatcher is called directly by the online 
+doctor. 
+   - ***SEV 1*** -> Contact another district immediately if ambulance not available
+   - ***SEV 2*** -> Contact another district after certain threshold has passed if 
+   ambulance not available
+6) ***SEV 1 & 2*** are taken directly to the hospital for treatment.  
+   
+![Alt text](../images/dist-testing.png?raw=true "Title")
+
+##### 3.3.2 Hospital Distribution
+1) After initial treatment, if possible, patient must be transferred
+to the respective section of Karachi
+   - ***SEV 0*** -> Directly to ***Crisis Karachi***
+   - ***SEV 1*** -> Directly to ***Edge Karachi*** after preliminary tests 
+   - ***SEV 2*** -> 
+     - If old, directly to ***Edge Karachi***
+     - If young, isolate at district hospital IF case is deteriorating 
+   - ***SEV 3*** -> Isolate temporarily if needed for short period, or preliminary 
+   treatment and discharge. 
+   
+![Alt text](../images/hospital-dist.png?raw=true "Title")
+
+
+   
+
+
    
 
 
