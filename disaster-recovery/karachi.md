@@ -211,7 +211,7 @@ is given below (hypothetical data) :
 
 ![Alt text](../images/covid-slums-overlap.png?raw=true "Title")
 
-![Alt text](../images/crime-distribution.png?raw=true "Title")
+![Alt text](../images/crime-distribution.PNG?raw=true "Title")
 
 
 
