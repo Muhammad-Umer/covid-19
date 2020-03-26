@@ -117,7 +117,6 @@ The transition between severity levels is shown in the diagram below:
 
 ![Alt text](../images/sev-level-transition.png?raw=true "Title")
 
-
 #### 3.2. Ambulance queuing mechanism
 ##### 3.2.1 District Level Distribution
 1) Each district would have a dedicated pool.
@@ -180,15 +179,40 @@ doctor.
 ##### 3.3.2 Hospital Distribution
 1) After initial treatment, if possible, patient must be transferred
 to the respective section of Karachi
-   - ***SEV 0*** -> Directly to ***Crisis Karachi***
-   - ***SEV 1*** -> Directly to ***Edge Karachi*** after preliminary tests 
+   - ***SEV 0*** -> Directly to ***Crisis Karachi*** hospitals
+   - ***SEV 1*** -> Directly to ***Edge Karachi*** hospitals after preliminary tests 
    - ***SEV 2*** -> 
-     - If old, directly to ***Edge Karachi***
+     - If old, directly to ***Edge Karachi*** hospitals
      - If young, isolate at district hospital IF case is deteriorating 
    - ***SEV 3*** -> Isolate temporarily if needed for short period, or preliminary 
    treatment and discharge. 
    
 ![Alt text](../images/hospital-dist.png?raw=true "Title")
+
+#### 3.3. Law Enforcement Positioning
+Consider three metrics with respect to areas (can be added if possible)
+- COVID outbreak (label = **v**, weight = **0.5**)
+- Slums (label = **s**, weight = **0.3**)
+- Crime (label = **c**, weight = **0.2**)
+
+Calculate weight for all areas: 
+- ****W(area) = (v * cases) + (s * slums) + (c * crimes)****
+
+Calculate weight for all districts: 
+- ****W(dist) = Sum(W(areas))****
+
+Divide force with respect to:
+1) Districts
+2) Areas
+
+Areas with high weights should have more **Rangers** than normal. An 
+example of data spread on a map for slums and COVID infections 
+is given below (hypothetical data) : 
+
+![Alt text](../images/covid-slums-overlap.png?raw=true "Title")
+
+![Alt text](../images/crime-distribution.png?raw=true "Title")
+
 
 
    
